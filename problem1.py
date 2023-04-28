@@ -4,4 +4,13 @@ print("\033[91mCMPE-103-MODULE-2-FILE-HANDLING-IN-PYTHON")
 print("\033[94m=" * 42)
 
 # write a python program that reads a text file, then the program will classify the even and odd numbers
-# into separate text files extracted from the main text file.
+# into separate text files extracted from the main text file
+
+# pseudocode
+# create a text file named "numbers.txt" that will contain 20 integers
+# open, read, and split the file for it to be ready on creating the main goal of the program
+# generate two empty list that will serve as a holder of even and odd numbers
+# construct the loop that will identify between even and odd numbers
+# open the file and transfer the classified even numbers to designated text file named "even.txt"
+# open the file and transfer the classified even numbers to designated text file named "odd.txt"
+# check the newly created text files and if the problem is solved.
