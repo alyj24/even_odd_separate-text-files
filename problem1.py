@@ -21,5 +21,8 @@ for number in numbers_data:
     else:
         odd_data.append(number)
 # open the file and transfer the classified even numbers to designated text file named "even.txt"
+with open("even.txt", "w") as even_file:
+    for number in even_data:
+        even_file.write(number + "\n")
 # open the file and transfer the classified even numbers to designated text file named "odd.txt"
 # check the newly created text files and if the problem is solved.
