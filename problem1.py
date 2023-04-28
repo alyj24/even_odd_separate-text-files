@@ -28,4 +28,5 @@ with open("even.txt", "w") as even_file:
 with open("odd.txt", "w") as odd_file:
     for number in odd_data:
         odd_data.write(number + "\n")
+# run the program
 # check the newly created text files and if the problem is solved.
