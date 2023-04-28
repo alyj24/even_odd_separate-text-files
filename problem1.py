@@ -27,6 +27,7 @@ with open("even.txt", "w") as even_file:
 # open the file and transfer the classified even numbers to designated text file named "odd.txt"
 with open("odd.txt", "w") as odd_file:
     for number in odd_data:
-        odd_data.write(number + "\n")
+        odd_file.write(number + "\n")
 # run the program
 # check the newly created text files and if the problem is solved.
+print("\033[95mHooray, Problem 01 is solved!")
