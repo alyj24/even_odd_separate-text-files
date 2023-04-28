@@ -13,11 +13,18 @@ pycharm64.exe
 ```
 # Usage
 with, as = using this in Python guarantees that resources are promptly closed after being processed.
+
 read = r
+
 write = w
+
 append = a
+
 # Launch
 $ git clone https://github.com/alyj24/even_odd_separate-text-files.git
+
 $ git add -A
+
 $ git commit -m ""
+
 $ git push 
