@@ -9,6 +9,8 @@ print("\033[94m=" * 42)
 # pseudocode
 # create a text file named "numbers.txt" that will contain 20 integers
 # open, read, and split the file for it to be ready on creating the main goal of the program
+with open("numbers.txt", "r") as problem_one_numbers_file:
+    numbers_data = problem_one_numbers_file.read().split()
 # generate two empty list that will serve as a holder of even and odd numbers
 # construct the loop that will identify between even and odd numbers
 # open the file and transfer the classified even numbers to designated text file named "even.txt"
