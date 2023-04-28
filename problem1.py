@@ -12,6 +12,8 @@ print("\033[94m=" * 42)
 with open("numbers.txt", "r") as problem_one_numbers_file:
     numbers_data = problem_one_numbers_file.read().split()
 # generate two empty list that will serve as a holder of even and odd numbers
+even_data = []
+odd_data = []
 # construct the loop that will identify between even and odd numbers
 # open the file and transfer the classified even numbers to designated text file named "even.txt"
 # open the file and transfer the classified even numbers to designated text file named "odd.txt"
